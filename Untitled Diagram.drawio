@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T19:13:26.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="arjDr0_nYyLD5VnrR3Rr" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T19:34:40.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="vn0PeGrEdFpzMvg7wcPT" version="21.1.7" type="github">
   <diagram name="Page-1" id="7PempzgWiUFxhsi43Qc2">
     <mxGraphModel dx="578" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,16 +26,16 @@
           <mxGeometry x="240" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xl35bQk_xtfxMdvA1Ot9-3" value="Book" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="280" width="160" height="120" as="geometry" />
+          <mxGeometry x="50" y="280" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="xl35bQk_xtfxMdvA1Ot9-4" value="+ISBN&lt;br&gt;+title&lt;br&gt;&lt;div&gt;+price&lt;/div&gt;&lt;div&gt;+date_of_publication&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="xl35bQk_xtfxMdvA1Ot9-3">
-          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        <mxCell id="xl35bQk_xtfxMdvA1Ot9-4" value="+ISBN&lt;br&gt;+title&lt;br&gt;&lt;div&gt;+price&lt;/div&gt;&lt;div&gt;+date_of_publication&lt;/div&gt;&lt;div&gt;+author_number&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="xl35bQk_xtfxMdvA1Ot9-3">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="xl35bQk_xtfxMdvA1Ot9-5" value="&lt;div&gt;Author&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="280" width="160" height="120" as="geometry" />
+          <mxGeometry x="390" y="280" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="xl35bQk_xtfxMdvA1Ot9-6" value="+author_number&lt;br&gt;+name&lt;br&gt;+DOB" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="xl35bQk_xtfxMdvA1Ot9-5">
-          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        <mxCell id="xl35bQk_xtfxMdvA1Ot9-6" value="+author_number&lt;br&gt;+name&lt;br&gt;&lt;div&gt;+DOB&lt;/div&gt;&lt;div&gt;+royalties_percentage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="xl35bQk_xtfxMdvA1Ot9-5">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="xl35bQk_xtfxMdvA1Ot9-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.008;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xl35bQk_xtfxMdvA1Ot9-5" target="xl35bQk_xtfxMdvA1Ot9-4">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
